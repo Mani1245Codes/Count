@@ -1,9 +1,12 @@
+//java program.
+// In this program used to determine the digits in a given number.
+
 import java.util.*;
 public class Main{
     public static void main(String args[]){
         Scanner in=new Scanner(System.in); 
         System.out.println("Enter the value:");
-        int a=in.nextInt(); //a values
+        int a=in.nextInt(); 
         int sum=0;
         int rem; 
         while(a!=0){
@@ -15,3 +18,11 @@ public class Main{
         System.out.print(sum);
     }
 }
+
+
+/* 
+   Enter the value:
+   1234
+   The output is:
+   4
+*/
